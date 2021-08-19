@@ -1,0 +1,16 @@
+@mixin boyut($g,$y) {
+    width: $g;
+    height: $y;
+}
+@mixin renk($bc, $c) { 
+    background-color: $bc;
+    color: $c;
+}
+
+.urunListe{
+    float: left;
+    border: 1px solid gray;
+    @include boyut(200px, 250px);
+    @include renk(#eee,black );
+    
+}

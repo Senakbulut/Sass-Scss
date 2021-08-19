@@ -1,0 +1,15 @@
+.kutu {
+  float: left;
+  width: 200px;
+}
+
+.kutu .baslik {
+  float: left;
+  background-color: red;
+}
+
+.kutu .baslik .icerik {
+  background-color: blue;
+  color: #fff;
+}
+/*# sourceMappingURL=first.css.map */

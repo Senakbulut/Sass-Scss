@@ -1,0 +1,35 @@
+@function gridSystem($unit, $totalunit){
+    @return (100 * $unit) / $totalunit + %
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    div{
+        height: 50px;
+    }
+    .left{
+        float: left;
+        width: gridSystem(3, 10);
+        background: darksalmon;
+    }
+    .right{
+        float: left;
+        width: gridSystem(7, 10);
+        background: darkseagreen;
+    }
+    .a{
+        float: left;
+        width: gridSystem(6, 16);
+        background:darkturquoise;
+    }
+    .b{
+        float: left;
+        width: gridSystem(4, 16);
+        background: rgb(214, 135, 188);
+    }
+    .c{
+        float: left;
+        width: gridSystem(6, 16);
+        background: rgb(70, 103, 173);
+    }
+}

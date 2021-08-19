@@ -1,0 +1,21 @@
+
+.mesaj{
+    float: left;
+    width: 300px;
+    padding: 15px;
+    margin: 15px;
+    color: #fff;
+    text-align: center;
+}
+.error{
+    @extend .mesaj;
+    background:red;
+}
+.success{
+    @extend .mesaj;
+    background: green;
+}
+.warning{
+    @extend .mesaj;
+    background: orange;
+}

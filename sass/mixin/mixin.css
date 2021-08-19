@@ -1,0 +1,16 @@
+.kutu {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #dede;
+  color: pink;
+}
+
+.kutu2 {
+  float: left;
+  background-color: yellow;
+  width: 1000px;
+  height: 500px;
+  height: 1000px;
+}
+/*# sourceMappingURL=mixin.css.map */

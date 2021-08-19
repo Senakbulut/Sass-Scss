@@ -1,0 +1,21 @@
+.mesaj, .error, .success, .warning {
+  float: left;
+  width: 300px;
+  padding: 15px;
+  margin: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.error {
+  background: red;
+}
+
+.success {
+  background: green;
+}
+
+.warning {
+  background: orange;
+}
+/*# sourceMappingURL=extend.css.map */

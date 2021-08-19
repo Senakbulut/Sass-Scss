@@ -1,0 +1,32 @@
+.icerik {
+  float: left;
+  padding: 10px;
+  background-color: #ebe;
+  width: 300px;
+}
+
+.icerik h1 {
+  color: lightseagreen;
+}
+
+.icerik p {
+  font-size: 18px;
+}
+
+.icerik ul {
+  padding-left: 20px;
+}
+
+.icerik ul li {
+  color: lightslategrey;
+}
+
+.icerik a {
+  background-color: moccasin;
+  padding: 5px 10px;
+}
+
+.icerik a:hover {
+  background-color: mintcream;
+}
+/*# sourceMappingURL=nesting.css.map */

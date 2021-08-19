@@ -1,0 +1,19 @@
+.message //message ögesinden miras alır kod tekrarını önler
+    float: left
+    width: 300px
+    padding: 15px
+    margin: 15px
+    color: #fff
+    text-align: center
+
+.error
+    @extend .message
+    background: red
+
+.success
+    @extend .message    
+    background: green
+
+.warning
+    @extend .message
+    background: orange

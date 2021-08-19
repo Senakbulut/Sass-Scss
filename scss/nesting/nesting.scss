@@ -1,0 +1,26 @@
+.icerik{
+    float: left;
+    padding: 10px;
+    background-color: #ebe;
+    width: 300px;
+
+    h1{
+        color: lightseagreen;
+    }
+    p{
+        font-size: 18px;
+    }
+    ul{
+        padding-left: 20px;
+        li{
+            color: lightslategrey;
+        }
+    }
+    a{
+        background-color: moccasin;
+        padding: 5px 10px;
+        &:hover{
+            background-color: mintcream;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": ";AAAiB,sBAAsB;AAGvC,AAAA,KAAK,CAAA;EACD,gBAAgB,EAJZ,OAAO;EAKX,KAAK,EAJA,KAAK;EAKV,MAAM,EAAE,KAAe;CAC1B;;AAED,AAAA,MAAM,CAAA;EAEF,KAAK,EAAE,KAAU;EACjB,MAAM,EAAE,KAAoB;CAC/B",
+    "sources": [
+        "degiskenler.scss"
+    ],
+    "names": [],
+    "file": "degiskenler.css"
+}

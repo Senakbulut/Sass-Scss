@@ -1,0 +1,16 @@
+$colours : ( //scss de alt alta yazabiliriz
+    "light":#fff,
+    "medium":#aaa,
+    "dark":#000
+);
+$size:(
+    "small":10px,
+    "medium":30px,
+    "big":60px
+);
+body{
+    background-color: map-get($map: $colours, $key: "dark");
+}
+h1{
+    font-weight: map-get($size, big);
+}

@@ -1,0 +1,20 @@
+@mixin border( $direction, $type, $color )
+    @if ( $direction == "l")
+        border-left: 1px $type $color
+    @else if( $direction == "r")
+        border-right: 1px $type $color
+    @else if( $direction == "t")
+        border-top:  1px $type $color
+    @else if( $direction == "b")
+        border-bottom:  1px $type $color
+    @else if( $direction == "a")
+        border:  1px $type $color
+    @else 
+        @error "False Direction"
+    
+.kutu
+    width: 300px
+    height: 100px
+    background-color: orange
+    @include border( "t", solid, #000)
+    

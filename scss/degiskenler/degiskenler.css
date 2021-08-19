@@ -1,0 +1,13 @@
+@charset "UTF-8";
+/*global değişkenler*/
+.kutu {
+  background-color: #8ad38a;
+  width: 400px;
+  height: 600px;
+}
+
+.kutu2 {
+  width: 800px;
+  height: 650px;
+}
+/*# sourceMappingURL=degiskenler.css.map */

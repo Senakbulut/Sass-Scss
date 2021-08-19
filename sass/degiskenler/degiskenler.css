@@ -1,0 +1,17 @@
+.box {
+  background-color: #dfffdf;
+  width: 400px;
+  height: 600px;
+}
+
+.box2 {
+  width: 60px;
+  height: 650px;
+  color: blue;
+  background-color: green;
+}
+
+.box3 {
+  font-size: 30px;
+}
+/*# sourceMappingURL=degiskenler.css.map */

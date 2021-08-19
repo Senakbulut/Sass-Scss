@@ -1,0 +1,15 @@
+$renk : #8ad38a; /*global değişkenler*/
+$boyut : 400px;
+$yukseklik : 600;
+.kutu{
+    background-color: $renk;
+    width: $boyut;
+    height: $yukseklik + px ;
+}
+    
+.kutu2{
+    
+    width: $boyut * 2;
+    height: $yukseklik + 50 + px;
+}
+   

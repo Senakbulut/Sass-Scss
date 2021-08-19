@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAiBA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EAjBX,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EAQb,gBAAgB,EAWF,KAAK;EAVnB,KAAK,EAUgB,IAAI;CAAI;;AAGjC,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,MAAM;EAtBxB,KAAK,EAuBiB,MAAM;EAtB5B,MAAM,EAsBwB,KAAK;EAnBnC,MAAM,EAqB4B,MAAM;CAC1C",
+    "sources": [
+        "mixin.sass"
+    ],
+    "names": [],
+    "file": "mixin.css"
+}

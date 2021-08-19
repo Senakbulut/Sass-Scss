@@ -1,0 +1,8 @@
+$renk : ("acik": #fff, "gri": #aaa, "koyu": #000) //bu şekilde çoklu tanımlanabilir ve map-get fonksiyonu ile kullanılabilir
+$boyut : ("kucuk": 12px, "orta": 20px, "buyuk": 50px) //yan yana yazmak zorundayız
+
+body
+    background-color: map-get( $renk, "gri" )
+.baslik
+    float: left
+    font-size: map-get($boyut,"buyuk")

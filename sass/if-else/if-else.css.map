@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAcA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,MAAM;EAXpB,UAAU,EAAG,GAAG,CAYE,KAAK,CAAE,IAAI;CAAI",
+    "sources": [
+        "if-else.sass"
+    ],
+    "names": [],
+    "file": "if-else.css"
+}

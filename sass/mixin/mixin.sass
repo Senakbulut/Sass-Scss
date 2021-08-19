@@ -1,0 +1,33 @@
+@mixin boyut
+    width: 100px
+    height: 100px
+@mixin dinamikboyut($genislik, $yukseklik)
+    width: $genislik
+    height: $yukseklik
+@mixin dinamikboyut2($genislik:null, $yukseklik:null)
+    width: $genislik
+    height: $yukseklik
+@mixin renk($arkaplan, $yazi)
+    background-color: $arkaplan
+    color: $yazi
+@mixin ucnokta()
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+//sığmayan paragrafın sonunda üç nokta koymak için
+.kutu
+    float: left
+    @include boyut 
+    //belirli sürekli kullanılacak şeyleri direk bu şekilde tanımlanabiliyor  
+    @include renk(#dede, pink)
+    
+    
+.kutu2
+    float: left
+    background-color: yellow
+    @include dinamikboyut(1000px, 500px)
+    //bu şekilde de parametreler ile dinamik özellik verilebiliyor
+    @include dinamikboyut2($yukseklik:1000px) 
+    //tek parametre de verebiliriz ama ötekinin default değerini yukarda null yapmak gerekiyor
+    
+    

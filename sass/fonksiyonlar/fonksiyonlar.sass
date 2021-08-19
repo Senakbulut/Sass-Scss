@@ -1,0 +1,19 @@
+@function theme($type: null) //parametresiz çağırılmayı kabul eder ve elsi döndürür
+    @if ($type == "light")
+        @return #fff
+    @else if($type == "dark")
+        @return #000
+    @else if($type == "blue")
+        @return #069eec
+    @else 
+        @return #aaa
+
+
+@function unitCovert($px)
+    @return $px / 16 + rem
+
+body
+    background: theme("blue ")
+
+.header
+    font-size: unitCovert(32)     

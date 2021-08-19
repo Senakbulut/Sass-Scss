@@ -1,0 +1,9 @@
+.urunListe {
+  float: left;
+  border: 1px solid gray;
+  width: 200px;
+  height: 250px;
+  background-color: #eee;
+  color: black;
+}
+/*# sourceMappingURL=mixin.css.map */

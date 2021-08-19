@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAcA,AAAA,IAAI,CAAC;EACD,UAAU,EAPE,IAAI;CAOa;;AAEjC,AAAA,OAAO,CAAC;EACJ,SAAS,EAND,IAAc;CAMM",
+    "sources": [
+        "fonksiyonlar.sass"
+    ],
+    "names": [],
+    "file": "fonksiyonlar.css"
+}

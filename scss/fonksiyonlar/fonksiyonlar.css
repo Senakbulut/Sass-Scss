@@ -1,0 +1,39 @@
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.container div {
+  height: 50px;
+}
+
+.container .left {
+  float: left;
+  width: 30%;
+  background: darksalmon;
+}
+
+.container .right {
+  float: left;
+  width: 70%;
+  background: darkseagreen;
+}
+
+.container .a {
+  float: left;
+  width: 37.5%;
+  background: darkturquoise;
+}
+
+.container .b {
+  float: left;
+  width: 25%;
+  background: #d687bc;
+}
+
+.container .c {
+  float: left;
+  width: 37.5%;
+  background: #4667ad;
+}
+/*# sourceMappingURL=fonksiyonlar.css.map */

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,IAAI,CAAC;EACD,gBAAgB,EAJX,OAAO;EAKZ,KAAK,EAJA,KAAK;EAKV,MAAM,EAAE,KAAY;CAAG;;AAC3B,AAAA,KAAK,CAAC;EAIF,KAAK,EAAE,IAAU;EACjB,MAAM,EAAE,KAAiB;EACzB,KAAK,EALI,IAAI;EAMb,gBAAgB,EALP,KAAK;CAKa;;AAC/B,AAAA,KAAK,CAAC;EACF,SAAS,EAND,IAAI;CAMQ",
+    "sources": [
+        "degiskenler.sass"
+    ],
+    "names": [],
+    "file": "degiskenler.css"
+}

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAC;EACF,KAAK,EAAE,IAAI;EACX,KAAK,EAAE,KAAK;CAOc;;AAT9B,AAII,KAJC,CAID,OAAO,CAAC;EACJ,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,GAAG;CAGD;;AAT5B,AAOQ,KAPH,CAID,OAAO,CAGH,OAAO,CAAC;EACJ,gBAAgB,EAAE,IAAI;EACtB,KAAK,EAAE,IAAI;CAAG",
+    "sources": [
+        "first.sass"
+    ],
+    "names": [],
+    "file": "first.css"
+}

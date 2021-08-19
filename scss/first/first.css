@@ -1,0 +1,15 @@
+.box {
+  float: left;
+  width: 100px;
+}
+
+.header {
+  float: left;
+  color: black;
+}
+
+.content {
+  background-color: beige;
+  color: blanchedalmond;
+}
+/*# sourceMappingURL=first.css.map */
