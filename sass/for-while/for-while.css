@@ -1,0 +1,45 @@
+.h1 {
+  float: left;
+  width: 11%;
+}
+
+.h2 {
+  float: left;
+  width: 12%;
+}
+
+.h3 {
+  float: left;
+  width: 13%;
+}
+
+.h4 {
+  float: left;
+  width: 14%;
+}
+
+.h5 {
+  float: left;
+  width: 15%;
+}
+
+.header-0 {
+  font-size: 15px;
+}
+
+.header-1 {
+  font-size: 16px;
+}
+
+.header-2 {
+  font-size: 17px;
+}
+
+.header-3 {
+  font-size: 18px;
+}
+
+.header-4 {
+  font-size: 19px;
+}
+/*# sourceMappingURL=for-while.css.map */

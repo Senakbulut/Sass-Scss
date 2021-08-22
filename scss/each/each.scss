@@ -1,0 +1,19 @@
+$sizes: 1,2,3,4,5;
+@each $size in $sizes{
+    .header#{$size}{
+        font-size: 11 + $size + px 
+    }
+}
+$sizes2: (
+    1:100, 
+    2:150, 
+    3:200);
+
+@each $name, $size2 in $sizes2{
+    .box-#{$name}{
+        float: left;
+        width: $size2 + px;
+    }
+}
+     
+        

@@ -1,0 +1,11 @@
+$sizes: 1,2,3,4,5 //liste
+@each $size in $sizes //liste boyunca tüm elemanları döner
+    .header#{$size}
+        font-size: 10 + $size + px 
+
+$sizes2: (1:100, 2:150, 3:200) //map
+@each $name, $size2 in $sizes2
+     .box-#{$name}
+        float: left
+        width: $size2 + px
+     

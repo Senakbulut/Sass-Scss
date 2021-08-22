@@ -1,0 +1,17 @@
+@for $i from 1 through 5{
+    .box_#{$i}{
+        height: $i * 200px;
+        width: 100 * $i + px;
+    }        
+}
+
+$num: 7;
+
+@while ($num >= 4) {
+    .square#{$num}{
+        width: $num * 100px;
+        height: $num * 100px;
+    }
+    $num: $num - 1;
+}
+    

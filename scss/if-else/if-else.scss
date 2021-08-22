@@ -1,0 +1,19 @@
+@mixin style($team){
+    @if($team == "bjk"){
+        background-color: black;
+        color: #fff;
+    }
+    @else if($team == "çrz"){
+        background-color: green;
+        color: turquoise;
+    }
+    @else{
+        background-color: white;
+        color: black;
+    }
+}
+.box{
+    float: left;
+    padding: 10px;
+    @include style("bjk")
+}

@@ -1,0 +1,35 @@
+.header1 {
+  font-size: 11px;
+}
+
+.header2 {
+  font-size: 12px;
+}
+
+.header3 {
+  font-size: 13px;
+}
+
+.header4 {
+  font-size: 14px;
+}
+
+.header5 {
+  font-size: 15px;
+}
+
+.box-1 {
+  float: left;
+  width: 100px;
+}
+
+.box-2 {
+  float: left;
+  width: 150px;
+}
+
+.box-3 {
+  float: left;
+  width: 200px;
+}
+/*# sourceMappingURL=each.css.map */

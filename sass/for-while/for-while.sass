@@ -1,0 +1,10 @@
+@for $i from 1 through 5
+    .h#{$i}
+        float: left
+        width: 10 + $i +% 
+
+$number: 0
+@while ($number<= 4)
+    .header-#{$number}
+        font-size: 15 + $number +px
+        $number: $number +1 //increment/decrement
